@@ -33,7 +33,7 @@ Use API without Authorization
 
     var fbapi = require('facebook-api');
     var client = fbapi.user(null); // do not set an access token
-    client.getUser("btaylor").info(viewback);
+    client.get("btaylor").info(viewback);
 
     > Data: {"id":"220439","name":"Bret Taylor","first_name":"Bret","last_name":"Taylor","link":"http://www.facebook.com/btaylor","gender":"male","locale":"en_US"}
 
